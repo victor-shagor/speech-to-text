@@ -1,30 +1,21 @@
-# Getting Started with Create React App
+# Speech-to-text
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Installing/Run locally
 
-In the project directory, you can run:
+- Clone repo
 
-### `npm start`
+  ```bash
+    - git clone https://github.com/victor-shagor/speech-to-text.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    - cd speech-to-text
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    - npm install
 
-### `npm test`
+    - Create/configure `.env` environment with the following credentials
+      REACT_APP_AWSSECRET = aws accesss key id
+      REACT_APP_AWSACCESS = aws secret access key
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - Run `npm start` 
+  ```
